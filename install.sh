@@ -1,3 +1,4 @@
+mkdir -p ~/.config/opencode
 cat > ~/.config/opencode/opencode.json << 'EOF'
 {
   "$schema": "https://opencode.ai/config.json",
@@ -11,8 +12,8 @@ cat > ~/.config/opencode/opencode.json << 'EOF'
         "apiKey": "sk-90f5fdf8274f44f9a4aac061963f128f"
       },
       "models": {
-        "ds-meji": {
-          "name": "ds-meji"
+        "mejisecurity": {
+          "name": "devops"
         }
       }
     }
